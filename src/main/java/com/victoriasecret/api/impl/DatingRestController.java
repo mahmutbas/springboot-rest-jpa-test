@@ -17,6 +17,8 @@ public class DatingRestController implements DatingRestService
     @Autowired
     private GirlsDatingService girlsDatingService;
 
+    //Rest  service
+
     @Override
     public List<Girl> findSexyGirls()
     {
